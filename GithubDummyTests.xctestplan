@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "CA9EA6E8-B45E-4DC7-91B5-0510F0FD643F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:GithubDummy.xcodeproj",
+        "identifier" : "D053A3342CA44C1A004C8EB3",
+        "name" : "GithubDummyTests"
+      }
+    }
+  ],
+  "version" : 1
+}
