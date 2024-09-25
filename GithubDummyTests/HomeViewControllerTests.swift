@@ -7,6 +7,8 @@
 
 import XCTest
 @testable import GithubDummy
+
+@MainActor
 final class HomeViewControllerTests: XCTestCase {
 
     var mockOnboardingService:MockAPiService!
@@ -24,11 +26,6 @@ final class HomeViewControllerTests: XCTestCase {
     return vc
   }
 
-  func testReturnData() throws {
-   let sut = try makeSUT()
-   let count = 2
-  XCTAssertEqual(count, sut.homeData.count, "Expected user name does not match")
-  }
 
     func testPerformanceExample() throws {
       

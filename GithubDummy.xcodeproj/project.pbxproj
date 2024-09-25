@@ -135,12 +135,12 @@
 		D08CCF122CA1E4BD0007E90A /* GithubDummy */ = {
 			isa = PBXGroup;
 			children = (
+				D08CCF272CA1E4C90007E90A /* Extension */,
 				D08CCF7B2CA3B5CB0007E90A /* Models */,
 				D08CCF782CA3B2440007E90A /* Views */,
 				D08CCF6B2CA3A3700007E90A /* Manager  */,
 				D08CCF5B2CA3A1DB0007E90A /* Gif  */,
 				D08CCF5A2CA34C1D0007E90A /* Controllers */,
-				D08CCF272CA1E4C90007E90A /* Extension */,
 				D08CCF1C2CA1E4C00007E90A /* Assets.xcassets */,
 				D08CCF1E2CA1E4C00007E90A /* LaunchScreen.storyboard */,
 				D08CCF212CA1E4C00007E90A /* Info.plist */,
@@ -163,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				D08CCF6E2CA3A5160007E90A /* Main */,
-				D08CCF172CA1E4BD0007E90A /* LandingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,9 +202,10 @@
 			isa = PBXGroup;
 			children = (
 				D08CCF6F2CA3A5560007E90A /* MainTabViewController.swift */,
-				D08CCF922CA3F03A0007E90A /* Detail */,
-				D08CCF712CA3AA280007E90A /* HomeViewController.swift */,
 				D08CCF732CA3AA390007E90A /* FavoritesViewController.swift */,
+				D08CCF712CA3AA280007E90A /* HomeViewController.swift */,
+				D08CCF172CA1E4BD0007E90A /* LandingViewController.swift */,
+				D08CCF922CA3F03A0007E90A /* Detail */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -433,6 +433,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T88TPKBF;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GithubDummy.GithubDummyTests;
@@ -450,6 +451,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T88TPKBF;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GithubDummy.GithubDummyTests;

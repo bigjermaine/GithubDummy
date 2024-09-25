@@ -73,6 +73,7 @@ class DetailViewController: UIViewController {
     label.font =  .systemFont(ofSize: 16, weight: .regular)
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = ""
+    label.numberOfLines = 0
     label.clipsToBounds = true
     return label
   }()
@@ -99,12 +100,8 @@ class DetailViewController: UIViewController {
   }()
 
 
-
   var userUrl:String
-
   var networkManager:NetworkManager
-  
-
   var respository:Repository?
   var userDetail:User?
 
@@ -185,7 +182,7 @@ class DetailViewController: UIViewController {
 
   }
   func loadData() {
-    nameLabel.text = userDetail?.name
+    nameLabel.text = userDetail?.name ?? userDetail?.email
     bioLabel.text = "Bio \(userDetail?.bio ?? "N/A")"
     followingLabel.text = "\(userDetail?.following ?? 0)\nFollowing"
     followersLabel.text = "\(userDetail?.followers ?? 0)\nFollowers"

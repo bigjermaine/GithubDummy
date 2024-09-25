@@ -77,7 +77,6 @@ class MockAPiService:NetworkManager {
 }
 
 
-// Mock data for User
 let mockUsers: [User] = [
     User(
         login: "octocat",
